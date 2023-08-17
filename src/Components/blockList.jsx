@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Block from './Block';
+import { Link } from 'react-router-dom';
 
 const BlockList = ({blockNumber}) => {
  const  [blocks , setBlocks] = useState([]);
@@ -32,7 +33,7 @@ const BlockList = ({blockNumber}) => {
     <>
     <div className='BlockList'>
 
-    
+    <Link to={"/"} onClick={() => window.location.reload()}  className='link'>Latest Blocks</Link>
     <ul>
 
     {

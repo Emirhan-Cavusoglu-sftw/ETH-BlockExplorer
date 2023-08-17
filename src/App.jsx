@@ -1,7 +1,7 @@
 import { Alchemy, Network } from 'alchemy-sdk';
 import { useEffect, useState } from 'react';
 import BlockList from './Components/blockList';
-import {  Router, Route, NavLink, Routes } from 'react-router-dom'
+import {  Router, Route, NavLink, Routes,Link } from 'react-router-dom'
 import BlockDetail from './Components/BlockDetail';
 import TransactionDetail from './Components/TransactionDetail';
 import Header from './Components/Header';
