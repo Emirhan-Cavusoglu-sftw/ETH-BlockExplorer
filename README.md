@@ -140,4 +140,4 @@ Read more about the above in the [Alchemy SDK Surface docs](https://docs.alchemy
 - What transfers did an address receive this year?
 
 Good luck and have fun!
-Thank you for your patience! =)
+Thank you for your patience! :))
